@@ -15,7 +15,17 @@ function smallestOfThree(a, b, c) {
     return a;
 }
 
+function smallestOfThree2(a, b, c) {
+    let smallestNumber = a;
+    if(b < smallestNumber) {
+        smallestNumber = b;
+    }
+    if(c < smallestNumber) {
+        smallestNumber = c;
+    }
 
+    return smallestNumber;
+}
 
 console.log("smallestOfThree(3, 1, 6)", smallestOfThree(3, 1, 6));
 console.log("smallestOfThree(-1, -6, 9)", smallestOfThree(-1, -6, 9));
