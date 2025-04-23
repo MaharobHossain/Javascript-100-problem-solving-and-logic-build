@@ -22,3 +22,4 @@ calculateArea(3, 3);
 calculateArea( 14, 867);
  calculateArea( -4, 8);    // lenght is negative
  calculateArea( 4, -5);    // Width is negative
+
