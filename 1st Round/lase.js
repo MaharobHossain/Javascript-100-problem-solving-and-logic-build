@@ -18,9 +18,8 @@ function calculateArea( lenght, width ) {
     console.log("The rectangle area is: ", area);
 }
 
-calculateArea(3, 3);
-
-calculateArea( 14, 867);
- calculateArea( -4, 8);    // lenght is negative
- calculateArea( 4, -5);    // Width is negative
+calculateArea(3, 8);
+calculateArea( 25, 847);
+ calculateArea( -6, 3);    // lenght is negative
+ calculateArea( 9, -7);    // Width is negative
 
