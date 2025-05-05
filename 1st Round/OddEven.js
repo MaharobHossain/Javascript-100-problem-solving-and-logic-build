@@ -5,7 +5,7 @@ function checkIfEvenOrOdd(a) {
     const remainder = a % 2;
 
     if(remainder === 0) {      // find odd-even number easy step logic 1
-        return "even"
+        return "even";
     }
     else {
         return "odd";
@@ -13,8 +13,6 @@ function checkIfEvenOrOdd(a) {
 }
 
 
-console.log(checkIfEvenOrOdd(13));
-console.log(checkIfEvenOrOdd(-2));
 console.log("0 is ", checkIfEvenOrOdd(0));
 console.log("2 is ", checkIfEvenOrOdd(2));
 
